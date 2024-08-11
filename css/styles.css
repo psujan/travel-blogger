@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary: #f85606;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #636262;
+  transition: 0.35s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-family: "Hind", "sans-serif";
+}
+
+h1 {
+  font-size: 2.8rem !important;
+  font-weight: 800;
+  color: #141212;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-weight: 800;
+  color: #141212;
+}
+h3 {
+  font-size: 1.8rem !important;
+  font-weight: 600;
+  color: #141212;
+}
+
+h4,
+h5 {
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  color: #141212;
+}
+
+header {
+  z-index: 99;
+  background-image: url("../images/home-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 510px;
+  background-size: 100%;
+  /* padding: 15px 0; */
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    background-size: cover;
+  }
+
+  .header-text {
+    align-self: center;
+  }
+
+  .header-text p {
+    width: 85% !important;
+  }
+}
+
+.header-overlay {
+  border-image-source: linear-gradient(#00000080, #00000080);
+  border-image-slice: fill 1;
+}
+
+.header-top {
+  /* background:#fff; */
+  /* border:1px solid #fff; */
+  border-radius: 30px;
+  color: #fff;
+  /* margin:15px 0; */
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.logo:hover {
+  color: #fff;
+}
+
+.btn-round {
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #fe6215;
+  border-color: #fe6215;
+  color: #fff;
+}
+
+.clr-pale-white {
+  color: #d4d4d4;
+}
+
+.btn-w-lg {
+  width: 180px;
+}
+.header-nav li {
+  display: inline-flex;
+  padding: 12px 20px;
+}
+
+.header-nav li a:hover {
+  color: var(--primary) !important;
+}
+
+.bg-gray {
+  background-color: #fbfbfb;
+}
+.text-tiny {
+  font-size: 0.88rem;
+}
+
+.text-para {
+  font-size: 0.95rem;
+}
+
+.blog-col-wrap {
+  border-radius: 24px;
+  padding: 0px !important;
+  margin: 0 4px;
+  display: inline-block;
+}
+
+.blog-col-wrap img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+}
+
+.blog-col-wrap:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+footer {
+  background-color: #183548;
+  color: #e3e2e2;
+}
+
+footer li{
+  line-height: 2.4rem;
+}
+
+footer h5{
+  color:#fff;
+}
+
+@media screen and (min-width: 900px) {
+  .featured-content {
+    padding-left: 9rem;
+  }
+
+  .featured-content p {
+    max-width: 60%;
+    text-align: justify;
+  }
+}
