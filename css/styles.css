@@ -68,6 +68,27 @@ header {
   .header-text p {
     width: 85% !important;
   }
+
+  .highlight-row{
+    flex-direction: column;
+  }
+
+  .highlight-content{
+    padding:20px 0;
+    border-bottom:1px solid #eee;
+  }
+
+  .about-image img{
+    width:320px;
+    height:290px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .blog-col-wrap img {
+    width:290px;
+    height: 300px;
+  }
 }
 
 .header-overlay {
@@ -136,6 +157,7 @@ header {
   display: inline-block;
 }
 
+
 .blog-col-wrap img {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -181,3 +203,5 @@ footer h5{
     text-align: justify;
   }
 }
+
+
