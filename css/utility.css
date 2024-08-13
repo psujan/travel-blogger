@@ -4,7 +4,11 @@
   --primary: #0b8bc2;
 }
 
-body {
+html{
+  overflow-y: scroll;
+}
+
+html,body {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -70,8 +74,13 @@ button , input, input:focus{
   box-shadow: none;
 }
 
+p{
+  margin: 0;
+}
+
 ul{
   padding: 0;
+  margin: 0;
 }
 
 ul li{
@@ -88,15 +97,26 @@ For Containers
   margin-left: auto;
 }
 
-@media (min-width: 570px) {
-  .box {
-    max-width: 540px;
+@media screen and (max-width: 570px) {
+  html{
+    width: 100vw;
+    overflow-x: hidden;
   }
-}
 
-@media (max-width: 570px) {
-  .flx {
+  .box{
+    max-width: 98%;
+    margin:0 auto;
+    overflow-x: hidden;
+    padding:0 0;
+  }
+
+  .flx-sm-y {
     flex-direction: column;
+  }
+
+  .flx-sm-100{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 
   .p-sec{
@@ -108,25 +128,25 @@ For Containers
   }
 }
 
-@media (min-width: 760px) {
+@media screen and (min-width: 760px) {
   .box{
     max-width: 720px;
   }
 }
 
-@media (min-width: 990px) {
+@media screen and (min-width: 990px) {
   .box, .box-sm, .box-md, .box-lg {
     max-width: 960px;
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .box, .box-sm, .box-md, .box-lg, .box-xl {
     max-width: 1140px;
   }
 }
 
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .box {
     max-width: 90%;
   }

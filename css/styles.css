@@ -9,7 +9,7 @@ header {
   background-image: url("../images/home-banner.png");
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 510px;
+  height: 510px;
   background-size: 100%;
   /* padding: 15px 0; */
 }
@@ -28,6 +28,7 @@ header {
 .header-text p{
   line-height: 1.6;
   margin : 0 auto 20px;
+  width: 50%;
 }
 
 .highlights{
@@ -56,6 +57,8 @@ header {
 @media screen and (max-width: 570px) {
   header {
     background-size: cover;
+    max-height: 400px !important;
+    overflow-y: hidden;
   }
 
   .header-top{
@@ -94,6 +97,28 @@ header {
   .blog-col-wrap img {
     width:290px;
     height: 300px;
+  }
+
+  .featured-content-wrap{
+    max-height: 100%;
+    align-items: center;
+  }
+
+  .featured-content-wrap>div{
+    margin:14px 0;
+  }
+
+  .featured-content-wrap img{
+    width: 250px;
+    height: 250px;
+  }
+
+  footer h5{
+    margin-bottom: 10px !important;
+  }
+
+  footer .box .flx .flx-sm-100{
+    margin-bottom: 24px;
   }
 }
 
@@ -183,7 +208,7 @@ header {
 }
 
 footer {
-  background-color: #383c3e;
+  background-color: #1a3139;
   color: #e3e2e2;
 }
 
@@ -197,6 +222,7 @@ footer li a:hover{
 
 footer h5{
   color:#fff;
+  margin-bottom: 20px;
 }
 
 .social-links a{
