@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary: #0b8bc2;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #636262;
+  transition: 0.35s ease;
+  margin:0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-family: "Hind", "sans-serif";
+  line-height: 1.2;
+  margin:0;
+}
+
+h1 {
+  font-size: 2.8rem !important;
+  font-weight: 800;
+  color: #141212;
+  margin-bottom:24px;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-weight: 800;
+  color: #141212;
+  margin-bottom:24px;
+}
+h3 {
+  font-size: 1.8rem !important;
+  font-weight: 600;
+  color: #141212;
+  margin-bottom:24px;
+}
+
+h4,
+h5 {
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  color: #141212;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none !important;
+  color:inherit;
+}
+
+button , input, input:focus{
+  border:none;
+  outline:none;
+  box-shadow: none;
+}
+
+ul{
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+}
+/*
+For Containers
+*/
+.box{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 570px) {
+  .box {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 570px) {
+  .flx {
+    flex-direction: column;
+  }
+
+  .p-sec{
+    padding:30px 0 !important;
+  }
+
+  .flx-50,.flx-25,.flx-75{
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 760px) {
+  .box{
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 990px) {
+  .box, .box-sm, .box-md, .box-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .box, .box-sm, .box-md, .box-lg, .box-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .box {
+    max-width: 90%;
+  }
+}
+
+.clr-white{
+  color:#fff;
+}
+
+.app-btn{
+  padding:8px 16px;
+  display: inline-block;
+  text-align: center;
+}
+
+.app-btn-primary{
+  background-color: #0b8bc2;
+  color:#fff;
+  transition: 0.35s ease;
+}
+
+.app-btn-round{
+  border-radius: 30px;
+}
+
+.app-btn-w-lg{
+  width: 180px;
+}
+
+.app-btn-primary:hover {
+  background-color: #1bb0f0;
+  border-color: #1bb0f0;
+  color: #fff;
+}
+
+.app-form-input{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4a4a4a;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.app-btn-input-append{
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.95rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.app-input-group input{
+  width:60%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.flx{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flx-50{
+  flex: 0 0 50%;
+  max-width: 50%;
+  /* padding:0 15px; */
+}
+
+.flx-25{
+  flex: 0 0 25%;
+  max-width: 25%;
+  /* padding:0 15px; */
+
+}
+
+.flx-33{
+  flex: 0 0 33%;
+  max-width: 33%;
+  /* padding:0 15px; */
+}
+
+.flx-75{
+  flex: 0 0 75%;
+  max-width: 75%;
+  /* padding:0 15px; */
+}
+
+.flx-between{
+  justify-content: space-between;
+}
+
+.flx-center{
+  justify-content: center;
+}
+
+.flx-item-center{
+  align-items: center;
+}
+
+.flx-self-center{
+  align-self: center;
+}

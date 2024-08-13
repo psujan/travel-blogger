@@ -3,34 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Royal Rachel Adventures</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
-    <link href="./css/bootstrap.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Roaming Rachel's Adventures</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+    <link href="./css/utility.css" rel="stylesheet" />
+    <!--Icon Styles Used From Open Source-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
-
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-----------------Header----------------->
     <header class="header-overlay">
-      <div class="container">
-        <div
-          class="d-none d-md-flex pt-lg-2 justify-content-between align-content-center header-top"
-        >
+      <div class="box">
+        <div class="header-top">
           <div>
             <a href="/" class="logo">RRA</a>
           </div>
-          <nav class="d-flex header-nav">
-            <ul class="d-flex align-self-center">
+          <nav class="flx header-nav">
+            <ul class="flx flx-align-center">
               <li><a href="/" class="">Home</a></li>
               <li><a href="/aboutus.html" class="">About</a></li>
               <li><a href="/blogs.html" class="">Blogs</a></li>
@@ -40,22 +32,28 @@
             </ul>
           </nav>
         </div>
-        <div class="header-text text-center mt-md-4 pt-md-5 pt-5">
-          <h1 class="text-white">Hi , I Am Rachel</h1>
-          <p class="clr-pale-white w-50 text-center mx-auto">
+        <div class="header-text text-center">
+          <h1 class="clr-white">Hi , I Am Rachel</h1>
+          <p class="clr-pale-white flx-50 text-center">
             Travlelling has become a part of my life and I have been travelling
             around the world for a long time. If you love travel and adventure
             you are in the right spot. Do you want to discover more ?
           </p>
-          <a class="btn btn-round btn-primary btn-w-lg" href="/aboutus.html">
+          <a
+            class="app-btn app-btn-round app-btn-primary app-btn-w-lg"
+            href="/aboutus.html"
+          >
             Find More
           </a>
         </div>
       </div>
     </header>
-    <section class="highlights bg-gray py-5">
-      <div class="container">
-        <div class="d-flex justify-content-between highlight-row">
+    <!-----------------Header----------------->
+
+    <!-----------------Highlisghts----------------->
+    <section class="highlights bg-gray">
+      <div class="box">
+        <div class="flx flx-between highlight-row">
           <div class="highlight-content text-center">
             <span class="d-block"><i class="ri-pin-distance-line"></i></span>
             <span class="text-tiny">120 Countries Visited</span>
@@ -75,12 +73,15 @@
         </div>
       </div>
     </section>
-    <section class="about py-5 my-4">
-      <div class="container py-3">
-        <div class="row">
-          <div class="col-lg-6">
+    <!-----------------Highlights----------------->
+
+    <!-----------------About----------------->
+    <section class="p-sec">
+      <div class="box">
+        <div class="flx">
+          <div class="flx-50">
             <div class="about-text text-para">
-              <h2 class="mb-4">About Myself</h2>
+              <h2 class="heading-2">About Myself</h2>
               <p>
                 On December 25th, 1999, I left the USA for a three-month,
                 post-graduation trip to Southeast Asia. The idea was to backpack
@@ -98,7 +99,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-6 text-center">
+          <div class="flx-50 text-center">
             <div class="about-image">
               <img src="./images/about-us-home.png" alt="" srcset="" />
             </div>
@@ -106,154 +107,125 @@
         </div>
       </div>
     </section>
-    <section class="featured bg-gray mt-4">
-      <div class="d-flex">
-        <div class="featured-img">
-          <img
-            src="./images/blog-featured-home.png"
-            alt="BLOG_FEATURED_HOME"
-            srcset=""
-          />
-        </div>
-        <div class="py-5 featured-content">
-          <h3 class="mb-3">The Beauty Of Himalyas</h3>
-          <p class="text-para mb-4">
-            The Himalayas in Nepal are a breathtaking range of mountains that
-            form a natural border between Nepal and the Tibetan region of China.
-            They are among the most dramatic and rugged landscapes on earth,
-            featuring some of the highest peaks in the world, including Mount
-            Everest (Sagarmatha in Nepali), which rises to a staggering 8,848
-            meters above sea level. The Himalayas stretch across the northern
-            part of Nepal, covering nearly 75% of the country’s total area, and
-            play a crucial role in the cultural, spiritual, and economic life of
-            the Nepalese people.
-          </p>
-          <p class="mt-3">
-            The Himalayas are not just a geographical marvel but also a cultural
-            and spiritual hub. They are home to various ethnic groups, including
-            the Sherpas, Gurungs, and Thakalis, each with their distinct
-            language, traditions, and customs. The Sherpas, in particular, are
-            famous for their mountaineering skills and their deep spiritual
-            connection to the mountains.
-          </p>
-          <a href="" class="btn btn-primary btn-round btn-w-lg"
-            >Read Full Post</a
-          >
-        </div>
+    <!-----------------About----------------->
+
+    <!-----------------Featured Content----------------->
+    <section class="featured bg-gray">
+      <div class="flx featured-content-wrap">
+        <div class="flx-25 featured-img"></div>
       </div>
     </section>
-    <section class="blog py-5 my-5">
-      <div class="container">
-        <h2 class="mb-4">Popular Blogs</h2>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+    <!-----------------Featured Content----------------->
+
+    <!----------------- Blog Listing ----------------->
+    <section class="p-sec">
+      <div class="box">
+        <h2 class="heading-2">Popular Blogs</h2>
+        <div class="flx">
+          <div class="flx-33">
             <a class="blog-col-wrap" href="/blog-post.html">
               <picture>
-                <img src="./images/blog-1.png" alt="EXPLORING PARIS" srcset="" />
+                <img
+                  src="./images/blog-1.png"
+                  alt="EXPLORING PARIS"
+                  srcset=""
+                />
               </picture>
-              <article class="px-2 py-4">
+              <article class="blog-summary">
                 <h4>A Week In Paris</h4>
-                <p class="text-tiny text-grey">
+                <p class="text-tiny clr-grey">
                   Exploring the scenic reality of paris and ....
                 </p>
-                <div
-                  class="d-flex justify-content-between text-tiny text-muted"
-                >
+                <div class="flx flx-between text-tiny clr-muted">
                   <span><i class="ri ri-time-line"></i>2 min read</span>
                   <span><i class="ri-share-line"></i>50 Shares</span>
                 </div>
               </article>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <div class="flx-33">
             <a class="blog-col-wrap" href="/blog-post.html">
               <picture>
                 <img src="./images/blog-2.jpg" alt="LUMBINI" srcset="" />
               </picture>
-              <article class="px-2 py-4">
+              <article class="blog-summary">
                 <h4>Lumbini - The Peaceland</h4>
-                <p class="text-tiny text-grey">
+                <p class="text-tiny clr-grey">
                   A birthplace of Gautam Buddha and ....
                 </p>
-                <div
-                  class="d-flex justify-content-between text-tiny text-muted"
-                >
+                <div class="flx flx-between text-tiny clr-muted">
                   <span><i class="ri ri-time-line"></i>2 min read</span>
                   <span><i class="ri-share-line"></i>50 Shares</span>
                 </div>
               </article>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <div class="flx-33">
             <a class="blog-col-wrap" href="/blog-post.html">
               <picture>
                 <img src="./images/blog-4.jpg" alt="RAJESTHAN" srcset="" />
               </picture>
-              <article class="px-2 py-4">
+              <article class="blog-summary">
                 <h4>Historical Rajesthan</h4>
-                <p class="text-tiny text-grey">
+                <p class="text-tiny clr-grey">
                   The Mehrangarh Fort In Rajesthan ...
                 </p>
-                <div
-                  class="d-flex justify-content-between text-tiny text-muted"
-                >
+                <div class="flx flx-between text-tiny clr-muted">
                   <span><i class="ri ri-time-line"></i>2 min read</span>
                   <span><i class="ri-share-line"></i>50 Shares</span>
                 </div>
               </article>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <div class="flx-33">
             <a class="blog-col-wrap" href="/blog-post.html">
               <picture>
-                <img src="./images/blog-5.jpg" alt="THE ARCHIPELAGO" srcset="" />
+                <img
+                  src="./images/blog-5.jpg"
+                  alt="THE ARCHIPELAGO"
+                  srcset=""
+                />
               </picture>
-              <article class="px-2 py-4">
+              <article class="blog-summary">
                 <h4>The Portuguese Archipelago</h4>
-                <p class="text-tiny text-grey">
+                <p class="text-tiny clr-grey">
                   Roughly 900 miles off the coast of Lisbon, ...
                 </p>
-                <div
-                  class="d-flex justify-content-between text-tiny text-muted"
-                >
+                <div class="flx flx-between text-tiny clr-muted">
                   <span><i class="ri ri-time-line"></i>1 min read</span>
                   <span><i class="ri-share-line"></i>20 Shares</span>
                 </div>
               </article>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <div class="flx-33">
             <a class="blog-col-wrap" href="/blog-post.html">
               <picture>
                 <img src="./images/blog-6.jpg" alt="" srcset="" />
               </picture>
-              <article class="px-2 py-4">
+              <article class="blog-summary">
                 <h4>Caucasus Mountains, Georgia</h4>
-                <p class="text-tiny text-grey">
+                <p class="text-tiny clr-grey">
                   After decades spent out of sight and out ...
                 </p>
-                <div
-                  class="d-flex justify-content-between text-tiny text-muted"
-                >
+                <div class="flx flx-between text-tiny clr-muted">
                   <span><i class="ri ri-time-line"></i>3 min read</span>
                   <span><i class="ri-share-line"></i>70 Shares</span>
                 </div>
               </article>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <div class="flx-33">
             <a class="blog-col-wrap" href="/blog-post.html">
               <picture>
                 <img src="./images/blog-7.jpg" alt="IGAZU FALLS" srcset="" />
               </picture>
-              <article class="px-2 py-4">
+              <article class="blog-summary">
                 <h4>Chasing Waterfalls</h4>
-                <p class="text-tiny text-grey">
+                <p class="text-tiny clr-grey">
                   This magnificient Iguazu Falls in Brazil had ...
                 </p>
-                <div
-                  class="d-flex justify-content-between text-tiny text-muted"
-                >
+                <div class="flx flx-between text-tiny clr-muted">
                   <span><i class="ri ri-time-line"></i>1.5 min read</span>
                   <span><i class="ri-share-line"></i>80 Shares</span>
                 </div>
@@ -263,12 +235,15 @@
         </div>
       </div>
     </section>
-    <footer class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+    <!----------------- Blog Listing ----------------->
+
+    <!----------------- Footer ----------------->
+    <footer class="p-sec">
+      <div class="box">
+        <div class="flx">
+          <div class="flx-33">
             <h5>Let's Get Connected</h5>
-            <ul class="m-0 p-0 d-flex social-links">
+            <ul class="m-0 p-0 flx social-links">
               <li>
                 <a
                   href="https://www.instagram.com/>"
@@ -307,7 +282,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+          <div class="flx-33">
             <h5>Useful Links</h5>
             <ul class="m-0 p-0">
               <li><a href="/">Home</a></li>
@@ -316,17 +291,20 @@
               <li><a href="/contact.html">Contact</a></li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+          <div class="flx-33">
             <h5>Join Us</h5>
             <form>
-              <div class="input-group mb-3">
+              <div class="flx app-input-group">
                 <input
                   type="text"
-                  class="form-control"
+                  class="app-form-input"
                   placeholder="Your Email"
                 />
-                <div class="input-group-append">
-                  <button class="btn btn-primary" type="button">
+                <div class="">
+                  <button
+                    class="app-btn app-btn-primary app-btn-input-append"
+                    type="button"
+                  >
                     Let's Go
                   </button>
                 </div>
@@ -336,5 +314,6 @@
         </div>
       </div>
     </footer>
+    <!----------------- Footer ----------------->
   </body>
 </html>
