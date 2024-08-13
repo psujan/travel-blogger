@@ -238,3 +238,11 @@ For Containers
 .flx-self-center{
   align-self: center;
 }
+
+.txt-ctr{
+  text-align: center;
+}
+
+.clr-primary{
+  color:#0b8bc2;
+}
