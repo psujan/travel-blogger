@@ -279,6 +279,10 @@ footer h5{
   max-width: 80%;
 }
 
+.about-description h5{
+  color:var(--primary);
+}
+
 .about-description article{
   display: block;
   padding: 24px 0;
