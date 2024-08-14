@@ -54,9 +54,11 @@
 }
 
 @media screen and (max-width: 570px) {
+  body{
+    overflow-x: hidden !important;
+  }
   header {
     background-size: cover;
-    /* max-height: 400px !important; */
     overflow-y: hidden;
   }
 
@@ -273,4 +275,26 @@ footer h5{
   line-height: 180px;
 }
 
+.about-description{
+  max-width: 80%;
+}
+
+.about-description article{
+  display: block;
+  padding: 24px 0;
+}
+
+.about-description p{
+  margin:24px 0;
+  line-height: 1.6;
+}
+
+.about-points{
+  color:var(--primary);
+  padding-right: 4px;
+}
+
+.about-features li{
+  padding:12px 0;
+}
 
