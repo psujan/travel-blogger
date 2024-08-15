@@ -56,6 +56,7 @@
 @media screen and (max-width: 570px) {
   body{
     overflow-x: hidden !important;
+    font-size: 15px;
   }
   header {
     background-size: cover;
@@ -103,6 +104,10 @@
     height:290px;
     object-fit: cover;
     border-radius: 12px;
+  }
+
+  .about-banner{
+    background-size: cover !important;
   }
 
   .blog-col-wrap img {
@@ -269,6 +274,7 @@ footer h5{
   height: 180px;
   overflow: hidden;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .blog-banner{
@@ -309,5 +315,12 @@ footer h5{
 
 .about-features li{
   padding:12px 0;
+}
+
+.has-blue-tick li:before{
+  content: "\EB81";
+  font-family: 'remixicon';
+  padding-right: 12px;
+  color:#06f84f;
 }
 

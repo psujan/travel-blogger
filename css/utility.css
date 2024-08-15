@@ -97,6 +97,10 @@ For Containers
   margin-left: auto;
 }
 
+.bg-light-blue{
+  background-color: #ddecf3;
+}
+
 @media screen and (max-width: 570px) {
   html{
     width: 100vw;
