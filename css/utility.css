@@ -305,6 +305,10 @@ input,textarea{
   padding:16px 0;
 }
 
+.d-none{
+  display: none;
+}
+
 .pd-l-r{
   padding:0 16px;
 }
