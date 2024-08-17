@@ -164,7 +164,11 @@ For Containers
   padding:8px 16px;
   display: inline-block;
   text-align: center;
+  border-radius: 6px;
+  min-width: 110px;
+  line-height: 1.8;
 }
+
 
 .app-btn-primary{
   background-color: #0b8bc2;
@@ -186,6 +190,14 @@ For Containers
   color: #fff;
 }
 
+.form-input{
+  margin:15px 0 ;
+}
+
+input,textarea{
+  font-family: inherit;
+}
+
 .app-form-input{
   display: block;
   width: 100%;
@@ -198,7 +210,17 @@ For Containers
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+  transition: 0.35s ease;
+  overflow: hidden;
+  box-sizing: border-box;
 }
+
+.app-form-input:focus, textarea:focus, .app-form-input:focus-within{
+  border: 1px solid var(--primary) !important;
+  outline:none;
+}
+
+
 
 .app-btn-input-append{
   height: calc(1.5em + 0.75rem + 2px);
@@ -273,4 +295,16 @@ For Containers
 
 .bg-theme{
   background-color: var(--primary);
+}
+
+.w-75{
+  width: 75%;
+}
+
+.pd-t-b{
+  padding:16px 0;
+}
+
+.pd-l-r{
+  padding:0 16px;
 }

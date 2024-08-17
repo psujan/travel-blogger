@@ -53,90 +53,7 @@
  color:var(--primary);
 }
 
-@media screen and (max-width: 570px) {
-  body{
-    overflow-x: hidden !important;
-    font-size: 15px;
-  }
-  header {
-    background-size: cover;
-    overflow-y: hidden;
-  }
 
-  .header-bg{
-    height: 100vh;
-    background-size: cover;
-  }
-
-  .header-overlay{
-    border-image-source: none !important;
-    border-image-slice: unset !important;
-  }
-
-  .header-top{
-    display: none;
-  }
-
-  .header-text {
-    align-self: center;
-    padding-top:160px;
-  }
-
-  .header-text p {
-    width: 85% !important;
-  }
-
-  .highlight-row{
-    flex-direction: column;
-  }
-
-  .highlight-content{
-    padding:20px 0;
-    border-bottom:1px solid #eee;
-  }
-
-  .about-text{
-    text-align: justify;
-  }
-
-  .about-image img{
-    width:320px;
-    height:290px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-
-  .about-banner{
-    background-size: cover !important;
-  }
-
-  .blog-col-wrap img {
-    width:290px;
-    height: 300px;
-  }
-
-  .featured-content-wrap{
-    max-height: 100%;
-    align-items: center;
-  }
-
-  .featured-content-wrap>div{
-    margin:14px 0;
-  }
-
-  .featured-content-wrap img{
-    width: 250px;
-    height: 250px;
-  }
-
-  footer h5{
-    margin-bottom: 10px !important;
-  }
-
-  footer .box .flx .flx-sm-100{
-    margin-bottom: 24px;
-  }
-}
 
 .header-overlay {
   border-image-source: linear-gradient(#00000080, #00000080);
@@ -339,3 +256,105 @@ footer h5{
   padding: 20px 0;
 }
 
+
+.contact-links a{
+  font-size: 24px !important;
+}
+
+
+.contact-col{
+  border-right: 1px solid #ccc;
+  max-width:48% !important;
+}
+
+
+@media screen and (max-width: 570px) {
+  body{
+    overflow-x: hidden !important;
+    font-size: 15px;
+  }
+  header {
+    background-size: cover;
+    overflow-y: hidden;
+  }
+
+  .header-bg{
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .header-overlay{
+    border-image-source: none !important;
+    border-image-slice: unset !important;
+  }
+
+  .header-top{
+    display: none;
+  }
+
+  .header-text {
+    align-self: center;
+    padding-top:160px;
+  }
+
+  .header-text p {
+    width: 85% !important;
+  }
+
+  .highlight-row{
+    flex-direction: column;
+  }
+
+  .highlight-content{
+    padding:20px 0;
+    border-bottom:1px solid #eee;
+  }
+
+  .about-text{
+    text-align: justify;
+  }
+
+  .about-image img{
+    width:320px;
+    height:290px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .about-banner{
+    background-size: cover !important;
+  }
+
+  .blog-col-wrap img {
+    width:290px;
+    height: 300px;
+  }
+
+  .featured-content-wrap{
+    max-height: 100%;
+    align-items: center;
+  }
+
+  .featured-content-wrap>div{
+    margin:14px 0;
+  }
+
+  .featured-content-wrap img{
+    width: 250px;
+    height: 250px;
+  }
+
+  footer h5{
+    margin-bottom: 10px !important;
+  }
+
+  footer .box .flx .flx-sm-100{
+    margin-bottom: 24px;
+  }
+
+  .contact-col{
+    border-bottom:1px solid #ccc;
+    border-right: none;
+    max-width: 90% !important;
+  }
+}
