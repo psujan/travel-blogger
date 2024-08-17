@@ -285,6 +285,10 @@ footer h5{
   background-image: url('../images/blog-post-banner.PNG');
 }
 
+.travel-guide-banner{
+  background-image: url('../images/travel-guide-banner.PNG');
+}
+
 .about-banner .box{
   height: 100%;
 }
