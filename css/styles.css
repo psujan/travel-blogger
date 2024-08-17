@@ -281,6 +281,10 @@ footer h5{
   background-image: url('../images/blog-banner.PNG');
 }
 
+.blog-post-banner{
+  background-image: url('../images/blog-post-banner.PNG');
+}
+
 .about-banner .box{
   height: 100%;
 }
@@ -322,5 +326,12 @@ footer h5{
   font-family: 'remixicon';
   padding-right: 12px;
   color:#06f84f;
+}
+
+.post-insights{
+  border: 1px solid #ecebeb;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0;
 }
 
