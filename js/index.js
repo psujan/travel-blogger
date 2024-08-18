@@ -44,7 +44,6 @@ mobileMenuBtn.addEventListener("click", (e) => {
 
 const mobileOverlay = document.querySelector('.m-menu-overlay');
 mobileOverlay.addEventListener("click",(e)=>{
-  console.log("clicked", e.target);
   if(e.target.classList.contains("m-menu-overlay")){
     document.getElementById("m-menu-wrap").classList.remove("m-menu-open");
     mobileMenuBtn.classList.remove("hidden");
