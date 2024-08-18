@@ -312,3 +312,7 @@ input,textarea{
 .pd-l-r{
   padding:0 16px;
 }
+
+.lh-p{
+  line-height: 1.6;
+}

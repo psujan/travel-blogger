@@ -314,6 +314,10 @@ footer h5{
     text-align: justify;
   }
 
+  .about-text p{
+    margin-bottom:20px;
+  }
+
   .about-image img{
     width:320px;
     height:290px;

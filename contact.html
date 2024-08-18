@@ -76,39 +76,41 @@
           <h2>Contact</h2>
           <div class="flx contact-row">
             <div class="flx-50 flx-sm-100 contact-col">
-              <form class="w-75" id="contact-form">
-                <div class="form-input">
-                  <input
-                    type="text"
-                    id="name"
-                    placeholder="Name"
-                    name="name"
-                    class="app-form-input"
-                  />
-                </div>
-                <div class="form-input">
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="Email"
-                    name="email"
-                    class="app-form-input"
-                  />
-                </div>
-                <div class="form-input">
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="Your message"
-                    class="app-form-input"
-                  ></textarea>
-                </div>
-                <div class="form-input">
-                  <button class="app-btn app-btn-primary">Submit</button>
-                </div>
-              </form>
+              <div role="form" aria-label="Contact Form">
+                <form class="w-75" id="contact-form">
+                  <div class="form-input">
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Name"
+                      name="name"
+                      class="app-form-input"
+                    />
+                  </div>
+                  <div class="form-input">
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="Email"
+                      name="email"
+                      class="app-form-input"
+                    />
+                  </div>
+                  <div class="form-input">
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="Your message"
+                      class="app-form-input"
+                    ></textarea>
+                  </div>
+                  <div class="form-input">
+                    <button class="app-btn app-btn-primary">Submit</button>
+                  </div>
+                </form>
+              </div>
             </div>
-            <div class="flx-50 flx-sm-100 pd-t-b">
+            <div class="flx-50 flx-sm-100 pd-t-b" role="Contact Detail">
               <div class="pd-l-r">
                 <h5>You Can Also Find Me On</h5>
                 <ul class="flx social-links contact-links">
